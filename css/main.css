@@ -1,0 +1,70 @@
+/* Inserta tu CSS aqui */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin-left: 100px;
+}
+
+.box {
+	width: 200px;
+	height: 260px;
+	background-color: #FBFBFB;
+	float: left;
+	margin-top: 20px;
+	margin-right: 2px;
+	text-align: center;
+	padding-top: 20px;
+	border-right: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+nav a {
+	color: #898989;
+}
+
+.icon {
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Lobster Two', cursive;
+	line-height: 60px;
+}
+
+h4 {
+	font-family: 'Roboto Mono', ;
+	font-style: italic;
+	line-height: 30px;
+}
+
+p {
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.box:hover {
+	background-color: #FFF;
+	height: 280px;
+	width: 204px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: -2px;
+}
+
+.box:hover h3 {
+	color: #A7B9DA;
+}
+
+.box:hover p {
+	color: #A7B9DA;
+}
+
+.box:hover i {
+	transition-property: font-size;
+	transition-duration: 1s;
+	color: #DEE5F1;
+	font-size: 60px;
+}
